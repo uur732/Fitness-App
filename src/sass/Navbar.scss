@@ -1,65 +1,13 @@
-@import "../variables/variables.scss";
+@import "../variables/_variables.scss";
 
-
-.logo {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    text-align: left;
-
-
-    &__main {
-        width: 550px;
-    }
-
-    &__paragraph {
-        width: 80px;
-        font-size: x-large;
-        font-weight: 900;
-        font-family: sans-serif;
-        letter-spacing: 7px;
-        line-height: 3;
-        color: $grey ;
-        margin-top: -30px;
-    }
+.nav__img {
+    width: 80px;
+    height: 48px;
+    margin: 0 20px;
 }
 
-.btn {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    &__paragraph {
-        width: 500px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        &__main {
-            font-weight: 1000;
-            color:red;
-            word-spacing: 1em;
-        }
-        &__mid {
-          font-weight: 800;
-          color: $dark;
-          word-spacing: 2.5em;
-        }
-        &__bot {
-            font-weight: 800;
-            letter-spacing: 0.2em;
-        }
-    }
-    &__btn {
-        width: 200px;
-        height: 40px;
-        border-radius: 3rem;
-        background-color: $dark;
-        border: 0px;
-        color: $xx-grey;
-        margin-left: -50px;
-    }
+.nav__links {
+    text-decoration: none;
+    color:#3A1212;
+    border-bottom: 3px solid #FF2625;
 }
